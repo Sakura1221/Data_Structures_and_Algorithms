@@ -1,4 +1,5 @@
 venv
+.idea
 
 git rm -r --cached venv
 git push
