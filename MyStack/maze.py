@@ -1,4 +1,4 @@
-from MyStack.LinkStack import LinkStack
+from MyStack.LinkedStack import LinkStack
 
 class Maze(object):
     ###当前位置到达右，下，左，上相邻位置所需移动的坐标

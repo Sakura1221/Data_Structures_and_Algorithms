@@ -26,7 +26,7 @@ def Factorial1(n):
 
 ### 非递归方法，将函数栈转化为数据栈
 ### 存储的信息和执行步骤更少，占用内存少，效率更高，但代码更复杂
-from MyStack.LinkStack import LinkStack
+from MyStack.LinkedStack import LinkStack
 class FactElements(object):
     ###初始化阶乘函数的信息，使用类来包裹数据
     def __init__(self):
@@ -66,7 +66,7 @@ class FactElements(object):
 ### 下面是未保存标志信息的方法2，区别在于判断是否到栈底的条件
 ### 上面入栈是存储了标志信息运算速度更快
 ### 下面的方法使用栈的长度进行判断，因为是链栈，所以需要遍历，速度更慢
-from MyStack.LinkStack import LinkStack
+from MyStack.LinkedStack import LinkStack
 class FactElements_V2(object):
     ###初始化阶乘函数的信息，使用类来包裹数据
     def __init__(self):
